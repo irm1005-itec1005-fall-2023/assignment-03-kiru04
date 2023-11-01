@@ -50,10 +50,9 @@
 // It should accept a string as a parameter (text of the todo item)
 // and it should add a new todo item to the todoItems array
 // the function does not need to return anything
-function addToDoItems(text) {
-  // Implement the logic to add a task here
-  const todoItems = { text: text };
-  todoItems.push(todoItems);
+function addToDoItem(text) {
+  const todoItem = { text: text };
+  todoItems.push(todoItem);
 }
 
 // Function to remove a todo to the list
