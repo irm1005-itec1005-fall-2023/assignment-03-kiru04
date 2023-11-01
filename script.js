@@ -64,8 +64,15 @@ function addToDoItem(text) {
 function removeToDoItem(todoId) {
   // Implement the logic to add a task here
 
-  console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
-}
+    for (let i = 0; i < todoItems.length; i++) {
+      if (todoItems[i].id === id) {
+        todoItems.splice(i, 1);
+        break; 
+      }
+    }
+  }
+  // Remove this line when you start working on the function
+
 
 // Function to mark a task as completed
 // It should accept a number as a parameter (id of the todo item)
@@ -74,14 +81,7 @@ function removeToDoItem(todoId) {
 // the function does not need to return anything
 function markToDoItemAsCompleted(todoId) {
   // Implement the logic to mark a task as completed here
-  function removeToDoItemById(id) {
-    for (let i = 0; i < todoItems.length; i++) {
-      if (todoItems[i].id === id) {
-        todoItems.splice(i, 1);
-        break; 
-      }
-    }
-  }
+  
   console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
 }
 
