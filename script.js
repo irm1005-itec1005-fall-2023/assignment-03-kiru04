@@ -52,8 +52,8 @@
 // the function does not need to return anything
 function addToDoItem(text) {
   // Implement the logic to add a task here
-  const todoItem = { text: text };
-  todoItems.push(todoItems);
+  todoItems.push({ text: text });
+
 }
 
 // Function to remove a todo to the list
