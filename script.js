@@ -53,25 +53,9 @@
 
 function addTodoItems(todotext) {
   todoItems = [];
-  const todoItems = { text: any };
+  const todoItem = { text: "Your todo text here", };
   todoItems.push(todoItems);
 }
-/*function addToDoItems(todoText) {
-  // Assuming you have a global array named todoItems
-  // Initialize the array if it doesn't exist
-  if (!Array.isArray(todoItems)) {
-    todoItems = [];
-  }
-
-  // Create a new todo item object
-  const todoItem = {
-    text: todoText,
-    completed: false // You can add more properties if needed
-  };
-
-  // Add the new todo item to the array
-  todoItems.push(todoItem);
-}*/
 // Function to remove a todo to the list
 // It should accept a number as a parameter (id of the todo item)
 // Loop through the array of todos, and when you find the todo item with the id
