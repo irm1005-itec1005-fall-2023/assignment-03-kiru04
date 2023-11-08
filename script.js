@@ -52,7 +52,7 @@
 // the function does not need to return anything
 function addTodoItem(todotext) {
   todoItems = [];
-  const todoItems = { text: todotext };
+  const todoItems = { text: any };
   todoItems.push(todoItems);
 }
 
