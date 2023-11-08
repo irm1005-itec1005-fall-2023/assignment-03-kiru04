@@ -56,7 +56,7 @@
   const todoItems = { text: any };
   todoItems.push(todoItems);
 }*/
-function addTodo(todoText) {
+function addtodoItems(todoText) {
   // Assuming you have a global array named todoItems
   // Initialize the array if it doesn't exist
   if (!Array.isArray(todoItems)) {
