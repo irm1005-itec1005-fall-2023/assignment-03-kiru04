@@ -45,11 +45,12 @@
 
 // Initialise an empty array with the variable name todoItems
   let todoItems = [];
+  let count = 1 ;
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
 // and it should add a new todo item to the todoItems array
 // the function does not need to return anything
-function addToDoItem(text) {
+function addTodoItem(text) {
   const todoItem = { text: text };
   todoItems.push(todoItem);
 }
