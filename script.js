@@ -51,6 +51,7 @@
 // and it should add a new todo item to the todoItems array
 // the function does not need to return anything
 function addTodoItem(text) {
+  todoItems = [];
   const todoItem = { text: text };
   todoItems.push(todoItem);
 }
