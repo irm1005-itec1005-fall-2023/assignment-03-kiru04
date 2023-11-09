@@ -45,7 +45,7 @@
 
 // Initialise an empty array with the variable name todoItems
   let todoItems = [];
-  let toddolist = [] ;
+  let todolist = [] ;
   let kiru = 0;
 
 // Function to add a todo to the list
@@ -53,10 +53,10 @@
 // and it should add a new todo item to the todoItems array
 // the function does not need to return anything
 
-function addTodoItems(todoItems) {
-  console.log ('todo text:')
+function addTodoItems(text) {
+  console.log (todoItems)
   kiru++
-  const TodoItems = { 
+  const todoItems = { 
     id: kiru,
     text: "This is a todo item",
     completed: false, };
