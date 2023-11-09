@@ -56,7 +56,7 @@
 function addTodoItems(todoItems) {
   console.log ('todo text:')
   kiru++
-  const todoItem = { 
+  const TodoItems = { 
     id: kiru,
     text: "This is a todo item",
     completed: false, };
