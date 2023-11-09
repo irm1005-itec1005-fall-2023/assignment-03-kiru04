@@ -53,7 +53,7 @@
 // and it should add a new todo item to the todoItems array
 // the function does not need to return anything
 
-function addTodoItems(text) {
+function addTodoItems(todoItems) {
   console.log ('todo text:')
   kiru++
   const todoItem = { 
