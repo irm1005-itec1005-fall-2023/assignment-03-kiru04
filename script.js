@@ -45,7 +45,6 @@
 
 // Initialise an empty array with the variable name todoItems
   let todoItems = [];
-  let count = 1 ;
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
 // and it should add a new todo item to the todoItems array
@@ -53,7 +52,10 @@
 
 function addTodoItems(todotext) {
   todoItems = [];
-  const todoItem = { text: "Your todo text here", };
+  const todoItem = { 
+    id: 0,
+    text: "This is a todo item",
+    completed: false, };
   todoItems.push(todoItems);
 }
 // Function to remove a todo to the list
