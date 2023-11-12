@@ -45,7 +45,7 @@
 
 // Initialise an empty array with the variable name todoItems
   let todoItems = [];
-  let kiru = 0;
+  let kiru = 1;
 
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
@@ -59,9 +59,20 @@ function addTodoItems(text) {
     text: "This is a todo item",
     completed: false,
    }; 
-   kiru++;
+  todoItems.push(todo);   
+  kiru++;
+  console.log (todoItems);
+}
+function addToDoItem(text) {
+  // Implement the logic to add a task here
+  let todo = {
+    id: nextID,
+    text: text,
+    completed: false,
+  };
   todoItems.push(todo);
-   console.log (todoItems)
+  nextID++;
+  console.log(todoItems);
 }
 // Function to remove a todo to the list
 // It should accept a number as a parameter (id of the todo item)
