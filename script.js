@@ -63,7 +63,7 @@ function addTodoItems(text) {
   kiru++;
   console.log (todoItems);
 }
-function addToDoItem(text) {
+/*function addToDoItem(text) {
   // Implement the logic to add a task here
   let todo = {
     id: nextID,
@@ -73,7 +73,7 @@ function addToDoItem(text) {
   todoItems.push(todo);
   nextID++;
   console.log(todoItems);
-}
+}*/
 // Function to remove a todo to the list
 // It should accept a number as a parameter (id of the todo item)
 // Loop through the array of todos, and when you find the todo item with the id
